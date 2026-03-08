@@ -1,0 +1,19 @@
+# Ignore Mac OS folder attributes
+.DS_Store
+
+# Ignore Python compiled cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore the SQLite database
+# We do this because:
+# 1. State data shouldn't be shared in source control
+# 2. It prevents merge conflicts
+# 3. New environments will generate their own empty database automatically
+app/database.db
+*.db

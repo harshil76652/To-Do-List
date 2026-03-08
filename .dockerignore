@@ -1,0 +1,23 @@
+# Ignore Git
+.git
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# Ignore local database (so it's not copied into the image build)
+app/database.db
+*.db
